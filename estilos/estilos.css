@@ -483,7 +483,38 @@ flex-wrap: wrap;
 
 
 
-    
+    .form{
+        display:flex;
+        margin:2% 0px 2% 0px ;
+        justify-content: center;
+        align-items: center;
+        height:654px;
+    }
+
+    .form__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.486);
+        border: 2px solid rgb(45, 48, 241) ;
+        padding: 1%;
+    }
+
+    .form__container h2{
+        margin-bottom: 2%;
+    }
+
+    .form__input{
+        color:black;
+        margin-bottom:1%;
+    }
+
+    .animate__animated.animate__shakeY{
+        animation-delay: 1s;
+        animation-duration: 2s;
+        padding: 2%;
+    }
 
 
 

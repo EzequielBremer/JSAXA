@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/67013efa93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body class="container__grid">
@@ -26,7 +27,20 @@
         </section>
     </header>
 
-    <main></main>
+    <main>
+        <section>
+            <form class="form">
+                <div class="form__container">
+                   <h2 class="animate__animated animate__shakeY">Inicie Sesion</h2>  
+                   <input type="text" name="Nombre" placeholder="Username" required class="form__input">
+                   <input type="password" placeholder="Password" required class="form__input">
+                   <input type="email" placeholder="E-Mail" required class="form__input"> <br><br>¿Quieres recibir notificaciones sobre nuevas noticias?
+                   <input type="checkbox" name="acepta" value="1" class="form__input"><br><br>
+                   <input type="submit" value="Enviar"   placeholder="Enviar"  class="form__input">
+               </div>
+            </form>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="tituloYParrafo">
