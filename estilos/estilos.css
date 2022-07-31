@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; color: white;
+}
+
+body{
+    background-image: url("../img/wallpaper zero two.jpg");
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    grid-template-areas:"header" 
+                        "main"
+                        "footer";
+}
+
+.nav__container{
+    background-color: rgb(0, 0, 0);
+}
+
+.nav__container ul{
+    color: rgb(87, 89, 233);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-transform: uppercase;
+    height: 50px;
+    align-items: center;
+}
+
+.nav__container li{
+    transition: 0.5s;
+}
+
+.nav__container li:hover{
+    background-color:rgb(240, 240, 240) ;
+}
+
+.estrenos__container{
+    border: 5px solid rgb(141, 143, 235) ;
+    display: flex;
+    background-color: rgb(45, 48, 241);
+    justify-content: center;
+    align-items: center;
+    gap:3% ;
+}
+
+.imgCallOfTheNight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEstreno{
+    width: 700px;
+    height: 400px;
+}
+
+.callOfTheNight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.callOfTheNight h2{
+   color: rgb(255, 255, 255);
+   margin-bottom: 2%;
+}
+
+.callOfTheNight p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .recomendados__container{
+   display: flex;
+   flex-direction: column;
+}
+
+.recomendados__container h2{
+    background-color:rgb(45, 48, 241) ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.linea1Animes{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.linea1Animes img{
+ width: 300px;
+ height:400px;
+ border: 3px solid rgb(45, 48, 241);
+ transition: 0.5s;
+}
+
+.linea1Animes img:hover{
+    border: 3px solid rgb(255, 255, 255);
+   }
+
+.linea1Animes h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(45, 48, 241);
+    margin-bottom: 3%;
+}
+
+.linea2Animes{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.linea2Animes img{
+ border: 3px solid rgb(45, 48, 241);
+ width: 300px;
+ height:400px;
+ transition: 0.5s;
+}
+
+.linea2Animes img:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+ 
+.linea2Animes h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(45, 48, 241);
+    margin-bottom: 3%;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.tituloYParrafo{
+ text-align: center;
+}
+
+.tituloYParrafo h3{
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.ul__footer{
+    padding-right: 5px;
+    margin: 1%;
+    --facebook:rgb(58, 120, 156);
+    --instagram:rgb(194, 34, 34);
+    --twitter:blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li__footer a{
+    color:rgb(255, 255, 255) ;
+}
+
+
+.recomendados__containerMangas h2{
+    background-color:rgb(45, 48, 241)  ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:30px ;
+    margin-bottom: 3%;
+}
+
+.linea1Mangas {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.linea1Mangas img{
+    width:300px; 
+    height: 400px;
+    border: 3px solid rgb(45, 48, 241);
+    transition: 0.5s;
+}
+
+.linea1Mangas h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(45, 48, 241);
+    margin-bottom: 3%;
+}
+
+.linea1Mangas img:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+.linea2Mangas{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.linea2Mangas img{
+    width:300px; 
+    height: 400px;
+    border: 3px solid rgb(45, 48, 241);
+    transition: 0.5s;
+}
+
+.linea2Mangas h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(45, 48, 241);
+    margin-bottom: 3%;
+}
+
+.linea2Mangas img:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+
+    
+
+
+@media (max-width: 1224px){
+
+.nav__container{
+    width: 100%;
+}   
+
+.estrenos__container{
+    background-color: rgb(45, 48, 241) ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.callOfTheNight h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-top:10px ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.linea1Animes{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+
+.linea2Animes{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+
+
+.recomendados__containerMangas{
+    width: 100%;
+}
+
+
+.linea1Mangas{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+
+.linea2Mangas{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+}
+
+
+@media (max-width: 820px){
+
+    .container{
+        width: 100%;
+    }
+
+    .nav__container{
+        width: 100%;
+    }   
+
+    .navBar{
+        width: 100%;
+    }
+    
+    .estrenos__container{
+        background-color: rgb(45, 48, 241) ;
+        width: 810px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .callOfTheNight h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top:10px ;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .recomendados__container{
+        width: 100%x;
+    }
+
+    .imgRecomendados{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .linea1Animes{
+        display: flex;
+        margin-left: 3%;
+        width: 50%;  
+    }
+    
+    .linea2Animes{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+    }
+    
+    
+    .recomendados__containerMangas{
+        width: 100%;
+    }
+    
+    
+    .linea1Mangas{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+    }
+    
+    .linea2Mangas{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+    }
+
+    .footer{
+        width: 818;
+    }
+    
+}
+
+
+
+@media (max-width: 414px){
+
+    .container{
+        background-color: black;
+    }
+
+    .nav__container {
+        width: 100%;
+        height: 120px;
+    }   
+    
+    .navBar{
+        background-color: black;
+    }
+    
+    .nav__container ul{
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-top:80px; 
+    }
+    
+    .nav__container li{
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+    
+    .estrenos__container{
+        border: 5px solid rgb(141, 143, 235) ;
+        background-color: rgb(45, 48, 241) ;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    
+    .imgEstreno{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .callOfTheNight{
+        width: 100%;
+    }
+    
+    .callOfTheNight h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top:10px ;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    
+    }
+    
+    .callOfTheNight p{
+        width: 350px;
+    }
+
+    .recomendados__container{
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgRecomendados{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .linea1Animes{
+        display: flex;
+        margin-left: 3%;
+        width: 70%;  
+    }
+    
+    .linea2Animes{
+        display: flex;
+        margin-left: 3%;
+        width: 70%;  
+    }
+
+    
+    
+    .footer{
+        width: 412px;
+    }
+    
+    }
+
+
+
+
+
