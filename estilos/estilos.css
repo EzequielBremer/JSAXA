@@ -7,7 +7,6 @@
     font-family: 'Open Sans', sans-serif; color: white;
 }
 
-
 .container__gridIndex{
     display: grid;
     grid-template-columns: 1;
@@ -25,7 +24,7 @@
     grid-template-areas:"header" 
                         "main"
                         "footer";
-    background-image: url("../img/mangasWallpapers.webp");
+    background-image: url("../img/fondomangas2.jpg");
 }
 
 .container__gridContactanos{
@@ -38,48 +37,6 @@
     background-image: url("../img/contactanosWallpapers.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-}
-
-.nav__container{
-    background-color: rgb(0, 0, 0);
-}
-
-.nav__container ul{
-    color: rgb(87, 89, 233);
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    text-transform: uppercase;
-    height: 50px;
-    align-items: center;
-}
-
-.nav__container li{
-    transition: 0.5s;
-}
-
-.nav__container li:hover{
-    background-color:rgb(45, 48, 241) ;
-}
-
-.estrenos__container{
-    border: 5px solid rgb(141, 143, 235) ;
-    display: flex;
-    background-color: rgb(45, 48, 241);
-    justify-content: center;
-    align-items: center;
-    gap:3% ;
-}
-
-.imgCallOfTheNight{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgEstreno{
-    width: 700px;
-    height: 400px;
 }
 
 .callOfTheNight{
@@ -96,18 +53,18 @@
 }
 
 .callOfTheNight p{
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: wrap;
- }
+color: rgb(255, 255, 255);
+display: flex;
+flex-wrap: wrap;
+}
 
- .recomendados__container{
-   display: flex;
-   flex-direction: column;
+.recomendados__container{
+  display: flex;
+  flex-direction: column;
 }
 
 .recomendados__container h2{
-    background-color:rgb(45, 48, 241) ;
+    background-color:rgb(92, 92, 189);
     text-align: center;
     text-transform: uppercase;
     margin-top: 3%;
@@ -125,20 +82,20 @@ flex-wrap: wrap;
 .linea1Animes img{
  width: 300px;
  height:400px;
- border: 3px solid rgb(45, 48, 241);
+ border: 3px solid rgb(92, 92, 189);
  transition: 0.5s;
 }
 
 .linea1Animes img:hover{
     border: 3px solid rgb(255, 255, 255);
-   }
+}
 
 .linea1Animes h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(45, 48, 241);
+    background-color: rgb(92, 92, 189);
     margin-bottom: 3%;
 }
 
@@ -149,7 +106,7 @@ flex-wrap: wrap;
 }
 
 .linea2Animes img{
- border: 3px solid rgb(45, 48, 241);
+ border: 3px solid rgb(92, 92, 189);
  width: 300px;
  height:400px;
  transition: 0.5s;
@@ -164,43 +121,12 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(45, 48, 241);
+    background-color: rgb(92, 92, 189);
     margin-bottom: 3%;
 }
 
-.footer{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.tituloYParrafo{
- text-align: center;
-}
-
-.tituloYParrafo h3{
-    margin-bottom: 10px;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    display: inline-block;
-}
-
-.ul__footer{
-    padding-right: 5px;
-    margin: 1%;
-    --facebook:rgb(58, 120, 156);
-    --instagram:rgb(194, 34, 34);
-    --twitter:blue;
-    display: flex;
-    justify-content: space-around;
-}
-
-.li__footer a{
-    color:rgb(255, 255, 255) ;
-}
-
-
 .recomendados__containerMangas h2{
-    background-color:rgb(135, 62, 184);
+    background-color:rgb(255, 0, 0);
     text-align: center;
     text-transform: uppercase;
     font-size:30px ;
@@ -217,7 +143,7 @@ flex-wrap: wrap;
 .linea1Mangas img{
     width:300px; 
     height: 400px;
-    border: 3px solid rgb(135, 62, 184);
+    border: 3px solid rgb(255, 0, 0);;
     transition: 0.5s;
 }
 
@@ -226,14 +152,13 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(135, 62, 184);
+    background-color: rgb(255, 0, 0);;
     margin-bottom: 3%;
 }
 
 .linea1Mangas img:hover{
     border: 3px solid rgb(255, 255, 255);
 }
-
 
 .linea2Mangas{
  display: flex;
@@ -246,7 +171,7 @@ flex-wrap: wrap;
 .linea2Mangas img{
     width:300px; 
     height: 400px;
-    border: 3px solid rgb(135, 62, 184);
+    border: 3px solid rgb(255, 0, 0);;
     transition: 0.5s;
 }
 
@@ -255,7 +180,7 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(135, 62, 184);
+    background-color: rgb(255, 0, 0);;
     margin-bottom: 3%;
 }
 
@@ -263,8 +188,110 @@ flex-wrap: wrap;
     border: 3px solid rgb(255, 255, 255);
 }
 
-    
+.form{
+    display:flex;
+    margin:2% 0px 2% 0px ;
+    justify-content: center;
+    align-items: center;
+    height:654px;
+}
 
+.form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: 2px solid rgb(92, 92, 189);
+    padding: 1%;
+}
+
+.form__container h2{
+    margin-bottom: 2%;
+}
+
+.form__input{
+    color:black;
+    margin-bottom:1%;
+}
+
+.animate__animated.animate__shakeY{
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    padding: 2%;
+}
+
+.colornav{
+    background-color: rgb(0, 0, 0);
+}
+
+.linkcolor{
+    color: rgb(255, 255, 255);
+}
+
+.imglogo{
+    width:90px ;
+    height:60px ;
+}
+
+.formcontainer{
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 2px solid rgb(92, 92, 189);
+    padding: 20px;
+}
+
+.formcolor{
+   margin-bottom: 30px;
+}
+
+.colorEnviarContactanos{
+    background-color: rgb(92, 92, 189);
+}
+
+.colorEnviarContactanos:hover{
+    background-color: rgb(47, 47, 109);
+}
+
+.containerform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 677px;
+}
+
+.carouselContainer{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgCarouselContainer img{
+  height: 650px;
+  border: 4px solid rgb(92, 92, 189);
+}
+
+.imgCarouselContainer h5 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.imgCarouselContainer p{
+    background-color: rgba(0, 0, 0, 0.438);;
+}
+
+.footer{
+    background-color: rgb(92, 92, 189);
+}
+
+.estrenos__container{
+    display: none;
+}
 
 @media (max-width: 1224px){
 
@@ -273,13 +300,7 @@ flex-wrap: wrap;
 }   
 
 .estrenos__container{
-    background-color: rgb(45, 48, 241) ;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
+    display: none;
 }
 
 .callOfTheNight h2{
@@ -303,11 +324,9 @@ flex-wrap: wrap;
     width: 70%;  
 }
 
-
 .recomendados__containerMangas{
     width: 100%;
 }
-
 
 .linea1Mangas{
     display: flex;
@@ -321,7 +340,6 @@ flex-wrap: wrap;
     width: 70%;  
 }
 }
-
 
 @media (max-width: 820px){
 
@@ -338,13 +356,8 @@ flex-wrap: wrap;
     }
     
     .estrenos__container{
-        background-color: rgb(45, 48, 241) ;
-        width: 810px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
+        display: none;
+        background-color: rgb(92, 92, 189);
     }
     
     .callOfTheNight h2{
@@ -357,7 +370,7 @@ flex-wrap: wrap;
     }
 
     .recomendados__container{
-        width: 100%x;
+        width: 100%;
     }
 
     .imgRecomendados{
@@ -379,11 +392,9 @@ flex-wrap: wrap;
         width: 70%;  
     }
     
-    
     .recomendados__containerMangas{
         width: 100%;
     }
-    
     
     .linea1Mangas{
         display: flex;
@@ -402,8 +413,6 @@ flex-wrap: wrap;
     }
     
 }
-
-
 
 @media (max-width: 414px){
 
@@ -433,18 +442,30 @@ flex-wrap: wrap;
     .nav__container li{
         border-bottom: 2px solid rgb(255, 255, 255);
     }
+
+    .carouselContainer{
+        display: none;
+    }
+
+    .boxContainer{
+        display: none;
+    }
+
+    .estrenos__container{
+        display: inline;
+        
+    }
     
     .estrenos__container{
         border: 5px solid rgb(141, 143, 235) ;
-        background-color: rgb(45, 48, 241) ;
-        width: 400px;
+        background-color: rgb(92, 92, 189);
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 5px;
     }
-    
     
     .imgEstreno{
         width: 200px;
@@ -462,7 +483,6 @@ flex-wrap: wrap;
         width: 200px;
         margin-top:10px ;
         border-bottom: 1px solid rgb(255, 255, 255);
-    
     }
     
     .callOfTheNight p{
@@ -480,7 +500,6 @@ flex-wrap: wrap;
         flex-direction: column;
     }
     
-    
     .linea1Animes{
         display: flex;
         margin-left: 3%;
@@ -493,48 +512,12 @@ flex-wrap: wrap;
         width: 70%;  
     }
 
-    
-    
     .footer{
         width: 412px;
     }
+    }
     
-    }
-
-
-
-    .form{
-        display:flex;
-        margin:2% 0px 2% 0px ;
-        justify-content: center;
-        align-items: center;
-        height:654px;
-    }
-
-    .form__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.486);
-        border: 2px solid rgb(45, 48, 241) ;
-        padding: 1%;
-    }
-
-    .form__container h2{
-        margin-bottom: 2%;
-    }
-
-    .form__input{
-        color:black;
-        margin-bottom:1%;
-    }
-
-    .animate__animated.animate__shakeY{
-        animation-delay: 0.5s;
-        animation-duration: 2s;
-        padding: 2%;
-    }
+    
 
 
 
