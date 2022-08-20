@@ -11,28 +11,36 @@
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
-  grid-template-areas: "header"  "main" "footer";
+  grid-template-areas: "header" 
+ "main"
+ "footer";
   background-image: url("../img/wallpaper zero two.jpg"); }
 
 .container__gridMangas {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
-  grid-template-areas: "header"  "main" "footer";
+  grid-template-areas: "header" 
+ "main"
+ "footer";
   background-image: url("../img/fondomangas2.jpg"); }
 
 .container__gridJuegos {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
-  grid-template-areas: "header"  "main" "footer";
+  grid-template-areas: "header" 
+ "main"
+ "footer";
   background-image: url("../img/fondojuegos1.png"); }
 
 .container__gridContactanos {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: auto;
-  grid-template-areas: "header"  "main" "footer";
+  grid-template-areas: "header" 
+ "main"
+ "footer";
   background-image: url("../img/contactanosWallpapers.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
