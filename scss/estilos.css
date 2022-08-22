@@ -30,6 +30,16 @@
   background-size: cover;
 }
 
+.bienvenidos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(92, 92, 189);
+  font-family: "Open Sans", sans-serif 20px;
+  margin-bottom: 0%;
+}
+
 .callOfTheNight {
   display: flex;
   flex-direction: column;
@@ -217,19 +227,23 @@
   border: 3px solid rgb(255, 255, 255);
 }
 
-.wallpapersAnime {
-  display: inline-block;
+.wallpapersAnime__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.wallpapersAnime .h3recomendadosWallpaper {
+.wallpapersAnime__container .h3recomendadosWallpaper {
   text-align: center;
   background-color: rgb(41, 1, 59);
   border: 3px solid rgb(211, 38, 196);
   margin-top: 10px;
 }
-.wallpapersAnime .imgWallpapers {
-  width: 920px;
+.wallpapersAnime__container .imgWallpapers {
+  width: 1200px;
   height: 600px;
   margin-top: 5px;
+  margin-bottom: 5px;
   border: 3px solid rgb(211, 38, 196);
 }
 
@@ -280,8 +294,8 @@
   height: 700px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  text-align: center;
 }
 .carouselContainer .imgCarouselContainer img {
   height: 650px;
@@ -315,6 +329,9 @@
   }
   .container__gridContactanos {
     background-image: url("../img/fondocontactanosmobile.jpg");
+  }
+  .bienvenidos {
+    display: none;
   }
   .nav__container {
     width: 100%;
@@ -371,6 +388,9 @@
   }
   .container__gridContactanos {
     background-image: url("../img/fondocontactanosmobile.jpg");
+  }
+  .bienvenidos {
+    display: none;
   }
   .recomendados__container {
     width: 100%;
@@ -443,6 +463,9 @@
   .estrenos__container {
     display: inline;
   }
+  .bienvenidos {
+    display: none;
+  }
   .estrenos__container {
     border: 5px solid rgb(141, 143, 235);
     background-color: rgb(92, 92, 189);
@@ -450,7 +473,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     margin-top: 5px;
   }
   .estrenos__container .imgEstreno {
