@@ -235,8 +235,8 @@
 }
 .wallpapersAnime__container .h3recomendadosWallpaper {
   text-align: center;
-  background-color: rgb(41, 1, 59);
-  border: 3px solid rgb(211, 38, 196);
+  background-color: rgb(124, 34, 34);
+  border: 3px solid rgb(255, 0, 0);
   margin-top: 10px;
 }
 .wallpapersAnime__container .imgWallpapers {
@@ -244,7 +244,7 @@
   height: 600px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border: 3px solid rgb(211, 38, 196);
+  border: 3px solid rgb(255, 0, 0);
 }
 
 .wallpapersAnimePhone {

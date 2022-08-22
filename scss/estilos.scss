@@ -231,8 +231,8 @@
 
         .h3recomendadosWallpaper{
             text-align: center;
-            background-color: rgb(41, 1, 59);
-            border: 3px solid rgb(211, 38, 196);
+            background-color: rgb(124, 34, 34);
+            border: map-get($bordes,border )map-get($bordes,borderColor);
             margin-top: 10px;
           }
     
@@ -241,7 +241,7 @@
             height: 600px;
             margin-top: 5px;
             margin-bottom: 5px;
-            border: 3px solid rgb(211, 38, 196);
+            border: map-get($bordes,border )map-get($bordes,borderColor);
           }
 
     }
