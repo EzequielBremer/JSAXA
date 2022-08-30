@@ -252,6 +252,10 @@
     display: none;
   }
 
+.wallpapersAnimeTablet{
+    display: none;
+}
+
 .colornav{
     background-color: rgb(0, 0, 0);
 
@@ -339,6 +343,39 @@
         background-image: url("../img/fondocontactanosmobile.jpg");
     }
 
+.wallpapersAnime{
+    display: none;
+}  
+
+.wallpapersAnimeTablet{
+    display: grid;
+    
+    .wallpapersAnime__containerTablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        
+        .h3recomendadosWallpaperTablet{
+            text-align: center;
+            background-color:rgb(104, 114, 210);
+            border: map-get($bordes,border ) rgb(38, 55, 211);
+            margin-top: 10px;
+        }
+          
+        .imgWallpapersTablet{
+            margin-left: 1px;
+            width: 550px;
+            height: 300px;
+            border: map-get($bordes,border ) rgb(38, 55, 211);
+            margin-bottom:10px ;
+        }
+    }
+
+}
+
 .bienvenidos{
     display: none;
 }    
@@ -410,63 +447,87 @@
         background-image: url("../img/fondocontactanosmobile.jpg");
     }
 
+.carouselContainer{
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+    @include h3;
+
+   .imgCarouselContainer img{
+   height: 300px;
+    border: 4px solid $fondoParaTodo;
+   }
+
+   .imgCarouselContainer h5 {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.438);
+   }
+
+   .imgCarouselContainer p{
+      background-color: rgba(0, 0, 0, 0.438);;
+   }
+}   
+    
+
 .bienvenidos{
     display: none;
 }    
     
 .recomendados__container{
+    display: flex;
     width: 100%;
-
-    .imgRecomendados{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  
+       
         .linea1Animes{
             display: flex;
-            margin-left: 3%;
-            width: 40%;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
         }
-    
+        
         .linea2Animes{
             display: flex;
-            margin-left: 15%;
-            width: 40%;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
         }
-   }
 }
     
 .recomendados__containerMangas{
-     width: 100%;
-    
+    width: 100%;
+     
     .linea1Mangas{
         display: flex;
-        margin-left: 15%;
-        width: 70%;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .linea2Mangas{
         display: flex;
-        margin-left: 15%;
-        width: 70%;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 .recomendados__containerJuegos{
      width: 100%;
+    
    
     .linea1Juegos{
         display: flex;
-        margin-left: 15%;
-        width: 70%;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .linea2Juegos{
         display: flex;
-        margin-left: 15%;
-        width: 70%;  
-    }
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 }
 
     .footer{
@@ -525,7 +586,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 200px;
+            width: 100px;
             margin-top:10px ;
             border-bottom: 1px solid rgb(255, 255, 255);
         }
@@ -548,13 +609,13 @@
        .linea1Animes{
            display: flex;
            margin-left: 3%;
-           width: 70%;  
+           width: 60%;  
        }
     
        .linea2Animes{
            display: flex;
            margin-left: 3%;
-           width: 70%;  
+           width: 60%;  
        }
 }
 }
@@ -562,6 +623,10 @@
     .wallpapersAnime{
         display: None;
       }
+
+    .wallpapersAnimeTablet {
+        display: none;
+    } 
 
 .wallpapersAnimePhone{
     display: grid;
@@ -585,7 +650,7 @@
     .footer{
         width: 412px;
     }
-    }
+}
     
     
 
