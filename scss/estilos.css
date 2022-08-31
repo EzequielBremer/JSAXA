@@ -547,35 +547,31 @@
     border-bottom: 1px solid rgb(255, 255, 255);
   }
   .estrenos__container .callOfTheNight .callOfTheNight p {
-    width: 350px;
+    width: 340px;
   }
   .recomendados__container {
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
   }
   .recomendados__container .imgRecomendados {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
   }
   .recomendados__container .imgRecomendados .linea1Animes {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
   }
   .recomendados__container .imgRecomendados .linea2Animes {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
   }
   .recomendados__containerMangas {
@@ -588,10 +584,7 @@
   }
   .recomendados__containerMangash2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    align-items: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
@@ -617,10 +610,7 @@
   }
   .recomendados__containerJuegosh2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    align-items: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
