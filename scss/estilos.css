@@ -491,7 +491,7 @@
     width: 818;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 440px) {
   .container__gridIndex, .container__gridMangas, .container__gridJuegos, .container__gridContactanos {
     background-image: url("../img/fondo1indexmobile.jpg");
   }
@@ -531,7 +531,10 @@
     height: 100px;
   }
   .estrenos__container .callOfTheNight {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
   }
   .estrenos__container .callOfTheNight .callOfTheNight h2 {
     display: flex;
@@ -542,10 +545,10 @@
     border-bottom: 1px solid rgb(255, 255, 255);
   }
   .estrenos__container .callOfTheNight .callOfTheNight p {
-    width: 350px;
+    width: 300px;
   }
   .recomendados__container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
@@ -555,13 +558,49 @@
   }
   .recomendados__container .imgRecomendados .linea1Animes {
     display: flex;
-    margin-left: 3%;
-    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .recomendados__container .imgRecomendados .linea2Animes {
     display: flex;
-    margin-left: 3%;
-    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recomendados__containerMangas {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .recomendados__containerMangas .linea1Mangas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recomendados__containerMangas .linea2Mangas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recomendados__containerJuegos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .recomendados__containerJuegos .linea1Juegos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recomendados__containerJuegos .linea2Juegos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .wallpapersAnime {
     display: None;
