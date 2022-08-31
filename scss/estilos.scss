@@ -620,6 +620,13 @@
          flex-direction: column;
          justify-content: center;
          align-items: center; 
+
+         &img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  
+         }
        }
     
        .linea2Animes{
@@ -627,12 +634,18 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+
+         &img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  
+         }
        }
 }
 }
 
 .recomendados__containerMangas{
-    display: flex;
     width: 100%;
      
     .linea1Mangas{
@@ -651,7 +664,6 @@
 }
 
 .recomendados__containerJuegos{
-    display: flex;
     width: 100%;
     
    .linea1Juegos{

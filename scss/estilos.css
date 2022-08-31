@@ -574,7 +574,6 @@
     align-items: center;
   }
   .recomendados__containerMangas {
-    display: flex;
     width: 100%;
   }
   .recomendados__containerMangas .linea1Mangas {
@@ -590,7 +589,6 @@
     align-items: center;
   }
   .recomendados__containerJuegos {
-    display: flex;
     width: 100%;
   }
   .recomendados__containerJuegos .linea1Juegos {
