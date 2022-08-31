@@ -553,6 +553,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .recomendados__container .imgRecomendados {
     display: flex;
@@ -579,6 +582,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .recomendados__containerMangash2 {
     display: flex;
@@ -605,12 +611,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .recomendados__containerJuegosh2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
@@ -643,8 +653,8 @@
   }
   .wallpapersAnimePhone .imgWallpapersPhone {
     margin-left: 1px;
-    width: 200px;
-    height: 300px;
+    width: 190px;
+    height: 290px;
     margin-top: 5px;
     border: 3px solid rgb(211, 38, 196);
   }
