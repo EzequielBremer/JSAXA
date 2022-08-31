@@ -84,8 +84,8 @@
   margin-bottom: 3%;
 }
 .recomendados__container .linea1Animes img {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   border: 3px solid rgb(92, 92, 189);
   transition: 0.5s;
 }
@@ -107,8 +107,8 @@
 }
 .recomendados__container .linea2Animes img {
   border: 3px solid rgb(92, 92, 189);
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   transition: 0.5s;
 }
 .recomendados__container .linea2Animes img:hover {
@@ -138,8 +138,8 @@
   margin-bottom: 3%;
 }
 .linea1Mangas img {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   border: 3px solid rgb(255, 0, 0);
   transition: 0.5s;
 }
@@ -162,8 +162,8 @@
   margin-bottom: 3%;
 }
 .linea2Mangas img {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   border: 3px solid rgb(255, 0, 0);
   transition: 0.5s;
 }
@@ -194,8 +194,8 @@
   margin-bottom: 3%;
 }
 .linea1Juegos img {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   border: 3px solid rgb(255, 0, 0);
   transition: 0.5s;
 }
@@ -218,8 +218,8 @@
   margin-bottom: 3%;
 }
 .linea2Juegos img {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   border: 3px solid rgb(255, 0, 0);
   transition: 0.5s;
 }
@@ -458,6 +458,7 @@
     align-items: center;
   }
   .recomendados__containerMangas {
+    display: flex;
     width: 100%;
   }
   .recomendados__containerMangas .linea1Mangas {
@@ -473,6 +474,7 @@
     align-items: center;
   }
   .recomendados__containerJuegos {
+    display: flex;
     width: 100%;
   }
   .recomendados__containerJuegos .linea1Juegos {
@@ -550,80 +552,57 @@
     width: 340px;
   }
   .recomendados__container {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
   .recomendados__container .imgRecomendados {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .recomendados__container .imgRecomendados .linea1Animes {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .recomendados__container .imgRecomendados .linea2Animes {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .recomendados__containerMangas {
+    display: flex;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  .recomendados__containerMangash2 {
-    display: flex;
-    text-align: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
   }
   .recomendados__containerMangas .linea2Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
   }
   .recomendados__containerJuegos {
+    display: flex;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  .recomendados__containerJuegosh2 {
-    display: flex;
-    text-align: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
   }
   .recomendados__containerJuegos .linea2Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
   }
   .wallpapersAnime {

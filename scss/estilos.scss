@@ -88,8 +88,8 @@
             margin-bottom: 3%; }
           
         & img{
-            width: 300px;
-            height:400px;
+            width:280px; 
+            height: 380px;
             border: map-get($bordes,border ) $fondoParaTodo;;
             transition: 0.5s;
                         
@@ -110,8 +110,8 @@
          
               & img{
                   border: map-get($bordes,border ) $fondoParaTodo;
-                  width: 300px;
-                  height:400px;
+                  width:280px; 
+                  height: 380px;
                   transition: 0.5s;
          
                   &:hover{
@@ -139,8 +139,8 @@
         margin-bottom: 3%;}
         
     & img{
-        width:300px; 
-        height: 400px;
+        width:280px; 
+        height: 380px;
         border: map-get($bordes,border ) rgb(255, 0, 0);
         transition: 0.5s;
         
@@ -161,8 +161,8 @@
         margin-bottom: 3%;}
         
     & img{
-        width:300px; 
-        height: 400px;
+        width:280px; 
+        height: 380px;
         border: map-get($bordes,border ) rgb(255, 0, 0);
         transition: 0.5s;
         
@@ -190,8 +190,8 @@
         margin-bottom: 3%;}
         
     & img{
-        width:300px; 
-        height: 400px;
+        width:280px; 
+        height: 380px;
         border: map-get($bordes,border ) rgb(255, 0, 0);
         transition: 0.5s;
         
@@ -212,8 +212,8 @@
         margin-bottom: 3%;}
         
     & img{
-        width:300px; 
-        height: 400px;
+        width:280px; 
+        height: 380px;
         border: map-get($bordes,border ) rgb(255, 0, 0);
         transition: 0.5s;
         
@@ -494,6 +494,7 @@
 }
     
 .recomendados__containerMangas{
+    display: flex;
     width: 100%;
      
     .linea1Mangas{
@@ -512,7 +513,8 @@
 }
 
 .recomendados__containerJuegos{
-     width: 100%;
+    display: flex;
+    width: 100%;
     
    
     .linea1Juegos{
@@ -604,73 +606,66 @@
 }
 
 .recomendados__container{
-    width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
 
     .imgRecomendados{
         display: flex;
-         justify-content: center;
-         flex-direction: column;
-         align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     
        .linea1Animes{
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          align-items: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center; 
        }
     
        .linea2Animes{
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          align-items: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
        }
 }
 }
 
 .recomendados__containerMangas{
+    display: flex;
     width: 100%;
-    @include h3;
-    align-items: center;
-    
-    &h2{
-        display: flex;
-        text-align: center;
-    }
      
     .linea1Mangas{
-        @include h3;
-         align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .linea2Mangas{
-        @include h3;
-         align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 .recomendados__containerJuegos{
+    display: flex;
     width: 100%;
-    @include h3;
-    align-items: center;
-
-    &h2{
-        display: flex;
-        text-align: center;
-    }
     
    .linea1Juegos{
-       @include h3;
-       align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
    }
    
    .linea2Juegos{
-       @include h3;
-       align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 }
 }
 
