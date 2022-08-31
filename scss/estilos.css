@@ -513,11 +513,13 @@
   .estrenos__container {
     display: inline;
   }
+  .colornav {
+    width: 100%;
+  }
   .bienvenidos {
     display: none;
   }
   .estrenos__container {
-    border: 5px solid rgb(141, 143, 235);
     background-color: rgb(92, 92, 189);
     width: 100%;
     display: flex;
@@ -534,7 +536,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
   .estrenos__container .callOfTheNight .callOfTheNight h2 {
     display: flex;
@@ -545,61 +547,83 @@
     border-bottom: 1px solid rgb(255, 255, 255);
   }
   .estrenos__container .callOfTheNight .callOfTheNight p {
-    width: 300px;
+    width: 350px;
   }
   .recomendados__container {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
   .recomendados__container .imgRecomendados {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .recomendados__container .imgRecomendados .linea1Animes {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .recomendados__container .imgRecomendados .linea2Animes {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .recomendados__containerMangas {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .recomendados__containerMangash2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .recomendados__containerMangas .linea2Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .recomendados__containerJuegos {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .recomendados__containerJuegosh2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .recomendados__containerJuegos .linea2Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .wallpapersAnime {
@@ -625,6 +649,6 @@
     border: 3px solid rgb(211, 38, 196);
   }
   .footer {
-    width: 412px;
+    width: 100%;
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -563,12 +563,15 @@
         display: inline;
     }
 
+    .colornav{
+        width: 100%;
+    }
+
 .bienvenidos{
    display: none;
 }    
     
 .estrenos__container{
-    border: 5px solid rgb(141, 143, 235) ;
     background-color: $fondoParaTodo;
     width: 100%;
     @include h3;
@@ -583,7 +586,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
     
         .callOfTheNight h2{
             display: flex;
@@ -595,73 +598,69 @@
         }
     
         .callOfTheNight p{
-            width: 300px;
+            width: 350px;
         }
 }
 }
 
 .recomendados__container{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 
     .imgRecomendados{
-        display: flex;
-        flex-direction: column;
+        @include h3;
+        align-items: center;
     
        .linea1Animes{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+         @include h3;
+         align-items: center;
        }
     
        .linea2Animes{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+         @include h3;
+         align-items: center;
        }
 }
 }
 
 .recomendados__containerMangas{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     
+    &h2{
+        @include h3;
+        align-items: center;
+    }
      
     .linea1Mangas{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include h3;
+         align-items: center;
     }
     
     .linea2Mangas{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include h3;
+         align-items: center;
     }
 }
 
 .recomendados__containerJuegos{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+
+    &h2{
+        @include h3;
+    }
     
    .linea1Juegos{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
+       @include h3;
        align-items: center;
    }
    
    .linea2Juegos{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
+       @include h3;
        align-items: center;
 }
 }
@@ -694,7 +693,7 @@
 }
 
     .footer{
-        width: 412px;
+        width: 100%;
     }
 }
     
