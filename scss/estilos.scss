@@ -632,12 +632,10 @@
 
 .recomendados__containerMangas{
     width: 100%;
-    
-    .imgRecomendadosMangas{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
         .linea1Mangas{
             display: flex;
@@ -653,16 +651,10 @@
             align-items: center;
         }
     }
-}
+
 
 .recomendados__containerJuegos{
     width: 100%;
-
-    .imgRecomendadosJuegos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         .linea1Juegos{
             display: flex;
@@ -679,7 +671,7 @@
          }
 
     }
-}
+
 
     .wallpapersAnime{
         display: None;

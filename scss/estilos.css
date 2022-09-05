@@ -574,20 +574,18 @@
   }
   .recomendados__containerMangas {
     width: 100%;
-  }
-  .recomendados__containerMangas .imgRecomendadosMangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .recomendados__containerMangas .imgRecomendadosMangas .linea1Mangas {
+  .recomendados__containerMangas .linea1Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .recomendados__containerMangas .imgRecomendadosMangas .linea2Mangas {
+  .recomendados__containerMangas .linea2Mangas {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -596,19 +594,13 @@
   .recomendados__containerJuegos {
     width: 100%;
   }
-  .recomendados__containerJuegos .imgRecomendadosJuegos {
+  .recomendados__containerJuegos .linea1Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .recomendados__containerJuegos .imgRecomendadosJuegos .linea1Juegos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .recomendados__containerJuegos .imgRecomendadosJuegos .linea2Juegos {
+  .recomendados__containerJuegos .linea2Juegos {
     display: flex;
     flex-direction: column;
     justify-content: center;
