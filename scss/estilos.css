@@ -459,41 +459,29 @@
   }
   .recomendados__containerMangas {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15%;
+    width: 70%;
   }
   .recomendados__containerMangas .linea2Mangas {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15%;
+    width: 70%;
   }
   .recomendados__containerJuegos {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15%;
+    width: 70%;
   }
   .recomendados__containerJuegos .linea2Juegos {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15%;
+    width: 70%;
   }
   .footer {
     width: 818;
@@ -556,6 +544,42 @@
   }
   .estrenos__container .callOfTheNight .callOfTheNight p {
     width: 340px;
+  }
+  .linea1Animes {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .linea2Animes {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .recomendados__containerMangas {
+    width: 100%;
+  }
+  .recomendados__containerMangas .linea1Mangas {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .recomendados__containerMangas .linea2Mangas {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .recomendados__containerJuegos {
+    width: 100%;
+  }
+  .recomendados__containerJuegos .linea1Juegos {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .recomendados__containerJuegos .linea2Juegos {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
   }
   .wallpapersAnime {
     display: None;

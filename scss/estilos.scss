@@ -489,48 +489,34 @@
     
 .recomendados__containerMangas{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     
+
     .linea1Mangas{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .linea2Mangas{
+        margin-left: 15%;
+        width: 70%;  
+     }
+     .linea2Mangas{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+        margin-left: 15%;
+        width: 70%;  
+     }
 }
 
 .recomendados__containerJuegos{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+
     .linea1Juegos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       display: flex;
+       margin-left: 15%;
+       width: 70%;  
     }
-    
+
     .linea2Juegos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-   }
-}
+       display: flex;
+       margin-left: 15%;
+       width: 70%;  
+    }
+ }
 
     .footer{
         width: 818;
@@ -604,6 +590,49 @@
         }
     }
 }
+
+.linea1Animes{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+
+.linea2Animes{
+    display: flex;
+    margin-left: 15%;
+    width: 70%;  
+}
+
+.recomendados__containerMangas{
+    width: 100%;
+
+    .linea1Mangas{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
+     .linea2Mangas{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
+}
+
+.recomendados__containerJuegos{
+    width: 100%;
+
+    .linea1Juegos{
+       display: flex;
+       margin-left: 15%;
+       width: 70%;  
+    }
+
+    .linea2Juegos{
+       display: flex;
+       margin-left: 15%;
+       width: 70%;  
+    }
+ }
 
     .wallpapersAnime{
         display: None;
