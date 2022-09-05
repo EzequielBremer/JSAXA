@@ -659,23 +659,31 @@
     align-items: center;
     flex-direction: column;
 
-    .imgRecomendadosPhone{
+    .imgRecomendados__containerPhone{
         width: 100%;
         text-align: center;
         background-color:$fondoParaTodo;
         margin-top: 10px;
-    }
-    .imgWallpapersPhone{
-        margin-left: 1px;
-        margin-bottom: 5px;
-        border: map-get($bordes,border ) $fondoParaTodo;
-        width:280px; 
-        height: 380px;
-        transition: 0.5s;
-   
-            &:hover{
-                border: map-get($bordes,border ) rgb(255, 255, 255);}
+
+        .h3RecomendadosPhone{
+            width: 100%;
+            text-align: center;
+            background-color:$fondoParaTodo;
+            margin-top: 10px;
         }
+    
+        .ImgPhoneAnimesRecom{
+            margin-left: 1px;
+            margin-bottom: 5px;
+            border: map-get($bordes,border ) $fondoParaTodo;
+            width:280px; 
+            height: 380px;
+            transition: 0.5s;
+       
+                &:hover{
+                    border: map-get($bordes,border ) rgb(255, 255, 255);}
+            }
+    }
 }
 
 .recomendados__containerPhoneMangas{
@@ -684,23 +692,31 @@
     align-items: center;
     flex-direction: column;
 
-    .imgRecomendadosPhoneMangas{
+    .imgRecomendados__containerPhoneMangas{
         width: 100%;
         text-align: center;
         background-color:$fondoParaTodo;
         margin-top: 10px;
-    }
-    .imgWallpapersPhoneMangas{
-        margin-left: 1px;
-        margin-bottom: 5px;
-        border: map-get($bordes,border ) $fondoParaTodo;
-        width:280px; 
-        height: 380px;
-        transition: 0.5s;
-   
-            &:hover{
-                border: map-get($bordes,border ) rgb(255, 255, 255);}
+
+        .h3RecomendadosPhoneMangas{
+            width: 100%;
+            text-align: center;
+            background-color:$fondoParaTodo;
+            margin-top: 10px;
         }
+    
+        .ImgPhoneAnimesRecomMangas{
+            margin-left: 1px;
+            margin-bottom: 5px;
+            border: map-get($bordes,border ) $fondoParaTodo;
+            width:280px; 
+            height: 380px;
+            transition: 0.5s;
+       
+                &:hover{
+                    border: map-get($bordes,border ) rgb(255, 255, 255);}
+            }
+    }
 }
 
 .recomendados__containerPhoneJuegos{
@@ -709,23 +725,31 @@
     align-items: center;
     flex-direction: column;
 
-    .imgRecomendadosPhoneJuegos{
+    .imgRecomendados__containerPhoneJuegos{
         width: 100%;
         text-align: center;
         background-color:$fondoParaTodo;
         margin-top: 10px;
-    }
-    .imgWallpapersPhoneJuegos{
-        margin-left: 1px;
-        margin-bottom: 5px;
-        border: map-get($bordes,border ) $fondoParaTodo;
-        width:280px; 
-        height: 380px;
-        transition: 0.5s;
-   
-            &:hover{
-                border: map-get($bordes,border ) rgb(255, 255, 255);}
+
+        .h3RecomendadosPhoneJuegos{
+            width: 100%;
+            text-align: center;
+            background-color:$fondoParaTodo;
+            margin-top: 10px;
         }
+    
+        .ImgPhoneAnimesRecomJuegos{
+            margin-left: 1px;
+            margin-bottom: 5px;
+            border: map-get($bordes,border ) $fondoParaTodo;
+            width:280px; 
+            height: 380px;
+            transition: 0.5s;
+       
+                &:hover{
+                    border: map-get($bordes,border ) rgb(255, 255, 255);}
+            }
+    }
 }
 
     .wallpapersAnime{
