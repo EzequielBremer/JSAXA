@@ -611,66 +611,64 @@
     .imgRecomendados{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
     
        .linea1Animes{
          display: flex;
          flex-direction: column;
-         justify-content: center;
-         align-items: center; 
        }
     
        .linea2Animes{
          display: flex;
          flex-direction: column;
-         justify-content: center;
-         align-items: center;
        }
     }
 }
 
 .recomendados__containerMangas{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    .imgRecomendadosMangas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         .linea1Mangas{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
         
         .linea2Mangas{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
     }
+}
 
 
 .recomendados__containerJuegos{
     width: 100%;
 
+    .imgRecomendadosJuegos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         .linea1Juegos{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
           }
           
           .linea2Juegos{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
          }
-
     }
+
+}
 
 
     .wallpapersAnime{
@@ -691,6 +689,7 @@
         align-items: center;
 
         .h3recomendadosWallpaperPhone{
+            width: 100%;
             text-align: center;
             background-color:rgb(41, 1, 59) ;
             border: map-get($bordes,border ) rgb(211, 38, 196);
@@ -701,7 +700,7 @@
             margin-left: 1px;
             width: 175px;
             height: 275px;
-            margin-top: 5px;
+            margin-bottom: 5px;
             border: map-get($bordes,border ) rgb(211, 38, 196);
         }
     }
