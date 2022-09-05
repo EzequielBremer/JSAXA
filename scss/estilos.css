@@ -459,6 +459,10 @@
   }
   .recomendados__containerMangas {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
@@ -472,6 +476,10 @@
   }
   .recomendados__containerJuegos {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;
@@ -557,6 +565,10 @@
   }
   .recomendados__containerMangas {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .recomendados__containerMangas .linea1Mangas {
     display: flex;
@@ -570,6 +582,10 @@
   }
   .recomendados__containerJuegos {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .recomendados__containerJuegos .linea1Juegos {
     display: flex;

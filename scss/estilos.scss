@@ -489,6 +489,10 @@
     
 .recomendados__containerMangas{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .linea1Mangas{
         display: flex;
@@ -504,18 +508,22 @@
 
 .recomendados__containerJuegos{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .linea1Juegos{
-       display: flex;
-       margin-left: 15%;
-       width: 70%;  
-    }
-
-    .linea2Juegos{
-       display: flex;
-       margin-left: 15%;
-       width: 70%;  
-    }
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
+ 
+     .linea2Juegos{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
  }
 
     .footer{
@@ -605,6 +613,10 @@
 
 .recomendados__containerMangas{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .linea1Mangas{
         display: flex;
@@ -620,18 +632,22 @@
 
 .recomendados__containerJuegos{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .linea1Juegos{
-       display: flex;
-       margin-left: 15%;
-       width: 70%;  
-    }
-
-    .linea2Juegos{
-       display: flex;
-       margin-left: 15%;
-       width: 70%;  
-    }
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
+ 
+     .linea2Juegos{
+        display: flex;
+        margin-left: 15%;
+        width: 70%;  
+     }
  }
 
     .wallpapersAnime{
