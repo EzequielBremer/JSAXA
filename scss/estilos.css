@@ -40,6 +40,18 @@
   margin-bottom: 0%;
 }
 
+.recomendados__containerPhone {
+  display: none;
+}
+
+.recomendados__containerPhoneMangas {
+  display: none;
+}
+
+.recomendados__containerPhoneMangas {
+  display: none;
+}
+
 .callOfTheNight {
   display: flex;
   flex-direction: column;
@@ -337,6 +349,15 @@
   .wallpapersAnime {
     display: none;
   }
+  .recomendados__containerPhoneMangas {
+    display: none;
+  }
+  .recomendados__containerPhoneMangas {
+    display: none;
+  }
+  .recomendados__containerPhone {
+    display: none;
+  }
   .wallpapersAnimeTablet {
     display: grid;
   }
@@ -438,6 +459,15 @@
   .carouselContainer .imgCarouselContainer p {
     background-color: rgba(0, 0, 0, 0.438);
   }
+  .recomendados__containerPhone {
+    display: none;
+  }
+  .recomendados__containerPhoneMangas {
+    display: none;
+  }
+  .recomendados__containerPhoneMangas {
+    display: none;
+  }
   .bienvenidos {
     display: none;
   }
@@ -512,6 +542,15 @@
   .boxContainer {
     display: none;
   }
+  .recomendados__container {
+    display: none;
+  }
+  .recomendados__containerJuegos {
+    display: none;
+  }
+  .recomendados__containerJuegos {
+    display: none;
+  }
   .estrenos__container {
     display: inline;
   }
@@ -551,80 +590,74 @@
   .estrenos__container .callOfTheNight .callOfTheNight p {
     width: 340px;
   }
-  .recomendados__container {
+  .recomendados__containerPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recomendados__containerPhone .imgRecomendadosPhone {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    background-color: rgb(92, 92, 189);
+    margin-top: 10px;
   }
-  .recomendados__container .imgRecomendadosMangas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhone .imgWallpapersPhone {
+    margin-left: 1px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(92, 92, 189);
+    width: 280px;
+    height: 380px;
+    transition: 0.5s;
   }
-  .recomendados__container .imgRecomendadosMangas .linea1Animes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhone .imgWallpapersPhone:hover {
+    border: 3px solid rgb(255, 255, 255);
   }
-  .recomendados__container .imgRecomendadosMangas .linea2Animes {
+  .recomendados__containerPhoneMangas {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .recomendados__containerMangas {
+  .recomendados__containerPhoneMangas .imgRecomendadosPhoneMangas {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    background-color: rgb(92, 92, 189);
+    margin-top: 10px;
   }
-  .recomendados__containerMangas .imgRecomendadosMangas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhoneMangas .imgWallpapersPhoneMangas {
+    margin-left: 1px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(92, 92, 189);
+    width: 280px;
+    height: 380px;
+    transition: 0.5s;
   }
-  .recomendados__containerMangas .imgRecomendadosMangas .linea1Mangas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhoneMangas .imgWallpapersPhoneMangas:hover {
+    border: 3px solid rgb(255, 255, 255);
   }
-  .recomendados__containerMangas .imgRecomendadosMangas .linea2Mangas {
+  .recomendados__containerPhoneJuegos {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .recomendados__containerJuegos {
+  .recomendados__containerPhoneJuegos .imgRecomendadosPhoneJuegos {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    background-color: rgb(92, 92, 189);
+    margin-top: 10px;
   }
-  .recomendados__containerJuegos .imgRecomendadosJuegos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhoneJuegos .imgWallpapersPhoneJuegos {
+    margin-left: 1px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(92, 92, 189);
+    width: 280px;
+    height: 380px;
+    transition: 0.5s;
   }
-  .recomendados__containerJuegos .imgRecomendadosJuegos .linea1Juegos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .recomendados__containerJuegos .imgRecomendadosJuegos .linea2Juegos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .recomendados__containerPhoneJuegos .imgWallpapersPhoneJuegos:hover {
+    border: 3px solid rgb(255, 255, 255);
   }
   .wallpapersAnime {
     display: None;
