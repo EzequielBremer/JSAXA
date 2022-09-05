@@ -529,7 +529,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-}
+   }
 }
 
     .footer{
@@ -602,15 +602,11 @@
         .callOfTheNight p{
             width: 340px;
         }
-}
+    }
 }
 
 .recomendados__container{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     .imgRecomendados{
         display: flex;
@@ -623,13 +619,6 @@
          flex-direction: column;
          justify-content: center;
          align-items: center; 
-
-         &img{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;  
-         }
        }
     
        .linea2Animes{
@@ -637,23 +626,12 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-
-         &img{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;  
-         }
        }
-}
+    }
 }
 
 .recomendados__containerMangas{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     
     .imgRecomendadosMangas{
         display: flex;
@@ -666,13 +644,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            &img{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;  
-             }
         }
         
         .linea2Mangas{
@@ -680,23 +651,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            &img{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;  
-             }
         }
-}
+    }
 }
 
 .recomendados__containerJuegos{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     .imgRecomendadosJuegos{
         display: flex;
@@ -709,13 +669,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            &img{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;  
-             }
           }
           
           .linea2Juegos{
@@ -723,16 +676,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+         }
 
-            &img{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;  
-             }
-           }
-
-}
+    }
 }
 
     .wallpapersAnime{
@@ -744,21 +690,28 @@
     } 
 
 .wallpapersAnimePhone{
-    display: grid;
-    
-    .h3recomendadosWallpaperPhone{
-        text-align: center;
-        background-color:rgb(41, 1, 59) ;
-        border: map-get($bordes,border ) rgb(211, 38, 196);
-        margin-top: 10px;
-    }
-      
-    .imgWallpapersPhone{
-        margin-left: 1px;
-        width: 190px;
-        height: 290px;
-        margin-top: 5px;
-        border: map-get($bordes,border ) rgb(211, 38, 196);
+    display: flex;
+
+    .wallpapersAnime__containerPhone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .h3recomendadosWallpaperPhone{
+            text-align: center;
+            background-color:rgb(41, 1, 59) ;
+            border: map-get($bordes,border ) rgb(211, 38, 196);
+            margin-top: 10px;
+        }
+          
+        .imgWallpapersPhone{
+            margin-left: 1px;
+            width: 175px;
+            height: 275px;
+            margin-top: 5px;
+            border: map-get($bordes,border ) rgb(211, 38, 196);
+        }
     }
 }
 
