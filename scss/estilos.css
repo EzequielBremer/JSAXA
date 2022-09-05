@@ -553,23 +553,35 @@
   }
   .recomendados__container {
     width: 100%;
-  }
-  .recomendados__container .imgRecomendados {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .recomendados__container .imgRecomendados .linea1Animes {
+  .recomendados__container .imgRecomendadosMangas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .recomendados__container .imgRecomendados .linea2Animes {
+  .recomendados__container .imgRecomendadosMangas .linea1Animes {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .recomendados__container .imgRecomendadosMangas .linea2Animes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerMangas {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerMangas .imgRecomendadosMangas {
     display: flex;
@@ -580,13 +592,21 @@
   .recomendados__containerMangas .imgRecomendadosMangas .linea1Mangas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerMangas .imgRecomendadosMangas .linea2Mangas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerJuegos {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerJuegos .imgRecomendadosJuegos {
     display: flex;
@@ -597,10 +617,14 @@
   .recomendados__containerJuegos .imgRecomendadosJuegos .linea1Juegos {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .recomendados__containerJuegos .imgRecomendadosJuegos .linea2Juegos {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .wallpapersAnime {
     display: None;
@@ -610,6 +634,9 @@
   }
   .wallpapersAnimePhone {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .wallpapersAnimePhone .wallpapersAnime__containerPhone {
     display: flex;
