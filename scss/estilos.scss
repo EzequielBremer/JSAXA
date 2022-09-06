@@ -25,8 +25,6 @@
     background-image: url("../img/fondomangas2.jpg");
 }
 
-
-
 .container__gridJuegos{
     @extend .container__gridIndex;
     background-image: url("../img/fondojuegos1.png");
@@ -337,7 +335,7 @@
         background-image: url("../img/fondojuegosmobile.jpg");
     }
     .container__gridContactanos   {
-        background-image: url("../img/fondocontactanosmobile.jpg");
+        background-image: url("../img/fondocontactanostabletmobile.jpg");
     }
 
 .wallpapersAnime{
@@ -441,7 +439,7 @@
         background-image: url("../img/fondojuegosmobile.jpg");
     }
     .container__gridContactanos   {
-        background-image: url("../img/fondocontactanosmobile.jpg");
+        background-image: url("../img/fondocontactanostabletmobile.jpg");
     }
 
 .carouselContainer{
@@ -543,8 +541,8 @@
     .container__gridJuegos{
         background-image: url("../img/fondojuegosmobile.jpg");
     }
-    .container__gridContactanos   {
-        background-image: url("../img/fondocontactanosmobile.jpg");
+    .container__gridContactanos {
+        background-image: url("../img/fondomobilecontactanos.jpg");
     }
 
     .carouselContainer{
