@@ -115,7 +115,7 @@
   border: 3px solid rgb(255, 255, 255);
 }
 
-.recomendados__containerMangas h2 {
+.recomendados__containerMangas h1 {
   background-color: rgb(255, 0, 0);
   text-align: center;
   text-transform: uppercase;
@@ -171,7 +171,7 @@
   border: 3px solid rgb(255, 255, 255);
 }
 
-.recomendados__containerJuegos h2 {
+.recomendados__containerJuegos h1 {
   background-color: rgb(255, 0, 0);
   text-align: center;
   text-transform: uppercase;
